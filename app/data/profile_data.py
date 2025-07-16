@@ -5,8 +5,10 @@ profile_data = {
     "email": "brian.tifa08@gmail.com",
     "linkedin": "https://www.linkedin.com/in/brian-tifa-02b7b5196",
     "github": "https://github.com/BJtifa",
-    "skills": ["Python", "FastAPI", "SQL", "NoSQL", "Git", ".NET", "C#"],
-    "experience": [
+    
+},
+
+experience_data = [
         {
             "position": "Programador Senior Visual",
             "company": "Banco BHD",
@@ -23,11 +25,13 @@ profile_data = {
             "years": "2021"
         }
     ],
-    "projects": [
+
+skills_data = ["Python", "FastAPI", "SQL", "NoSQL", "Git", ".NET", "C#"],
+
+projects_data = [
         {
             "name": "Organizador de Archivos",
             "description": "Script en Python para renombrar archivos automáticamente.",
             "url": "https://github.com/BJtifa/file-renamer"
         }
-    ]
-}
+    ],
