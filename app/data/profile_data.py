@@ -6,7 +6,7 @@ profile_data = {
     "linkedin": "https://www.linkedin.com/in/brian-tifa-02b7b5196",
     "github": "https://github.com/BJtifa",
     
-},
+}
 
 experience_data = [
         {
@@ -24,9 +24,15 @@ experience_data = [
             "company": "Glowicom",
             "years": "2021"
         }
-    ],
+    ]
 
-skills_data = ["Python", "FastAPI", "SQL", "NoSQL", "Git", ".NET", "C#"],
+skills_data = [{"name":"Python"}, 
+               {"name":"FastAPI"}, 
+               {"name":"SQL"}, 
+               {"name":"NoSQL"},
+               {"name":"Git"},
+               {"name":".NET"}, 
+               {"name":"C#"}]
 
 projects_data = [
         {
@@ -34,4 +40,4 @@ projects_data = [
             "description": "Script en Python para renombrar archivos automáticamente.",
             "url": "https://github.com/BJtifa/file-renamer"
         }
-    ],
+    ]

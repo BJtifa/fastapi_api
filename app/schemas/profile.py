@@ -10,6 +10,9 @@ class Project(BaseModel):
     name: str
     description: str
     url: str   
+    
+class Skills(BaseModel):
+    name: str
 
 class Profile(BaseModel):
     name: str
@@ -18,6 +21,3 @@ class Profile(BaseModel):
     email: str
     linkedin: str
     github: str
-    skills: List[str]
-    experience: List[Experience]
-    projects: List[Project]
